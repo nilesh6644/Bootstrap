@@ -42,7 +42,7 @@
 .home {
     width: 100%;
     height: 90vh;
-    
+    background-color: red;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("https://cdn.pixabay.com/photo/2014/11/21/03/27/sea-540123_1280.jpg");
     background-repeat: no-repeat;
     background-size: cover;
