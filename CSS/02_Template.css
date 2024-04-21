@@ -1,0 +1,120 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    width: 100%;
+    height: 90vh;
+    background-color: blueviolet;
+    background-image: linear-gradient(to left,rgb(19, 5, 223),rgba(223, 216, 216, 0)) ,url(/Images/new.jpg);
+    /* background-image: url(/Images/new.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-position:initial;
+   color: white;
+}
+
+.h-100
+{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+.h-100 h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+}
+.btn
+{
+    border-radius: 10rem !important;
+    padding: 1.25 rem 2.24 rem !important;
+}
+.card
+{
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.message
+{
+    background-image: linear-gradient(to top, #e887bd 0%, #c7eafd 100%);
+}
+.gallary .card img
+{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.services
+{
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+}
+.services i
+{
+    padding: 15px;
+}
+.contact
+{
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+/* footer start */
+
+.footer {
+    width: 100%;
+  
+    text-align: center;
+    background: #170c2f;
+    color: #f9f9f9;
+}
+
+#footer h1 {
+    font-size: 36px;
+    font-weight: 550;
+    color: rgb(245, 240, 240);
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+
+#footer h1 span {
+    color: #ffa500;
+}
+
+.credit a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer h1 span {
+    color: #ffa500;
+}
+
+.footer h1 {
+    font-size: 36px;
+    font-weight: 550;
+    color: rgb(245, 240, 240);
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+
+.copyright span {
+    font-weight: 800;
+    text-shadow: 0px 1px 1px black;
+}
+
+.social-links i {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: rgb(3, 143, 38);
+    color: aliceblue;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+/* footer end */
+
